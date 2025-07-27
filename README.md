@@ -2,8 +2,6 @@
 
 Uma aplicação web full-stack básica construída com o stack MERN (MongoDB, Express, React, Node.js) utilizando Next.js para o frontend. A aplicação permite que um usuário envie uma mensagem de texto, que é salva em um banco de dados MongoDB, e recebe de volta um código de confirmação gerado dinamicamente.
 
-![GIF da Aplicação](https://i.imgur.com/your-gif-url.gif)
-> **Nota:** Grave um pequeno GIF ou tire um screenshot da aplicação funcionando e substitua o link acima para deixar seu README mais visual!
 
 ---
 
@@ -110,3 +108,20 @@ Siga os passos abaixo para rodar o projeto localmente:
 ## 📁 Estrutura do Projeto
 
 A estrutura de pastas do projeto está organizada da seguinte forma:
+
+/
+├── backend/                # Contém todo o código da API Node.js
+│   ├── models/
+│   │   └── Message.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+└── frontend/               # Contém todo o código da interface Next.js
+├── app/
+│   ├── page.module.css
+│   └── page.tsx
+├── package.json
+└── ...
+
+
